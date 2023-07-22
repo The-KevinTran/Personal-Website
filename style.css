@@ -1,0 +1,42 @@
+*{
+    background: rgb(32, 32, 35);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.nav__items{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+
+.nav__btn{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #0E2954;
+    border-radius: 4px;
+}
+
+.nav__btn:hover{
+    background: #F6FFA6;
+    transition: all 0.3s ease;
+}
+
+.nav__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header {
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
